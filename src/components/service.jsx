@@ -7,8 +7,7 @@ const Service = () => {
         <div className='flex flex-col container mx-auto my-auto justify-around text-center'>
             <h1 className='text-center text-2xl font-bold cursor-pointer my-auto hover:scale-105 duration-200 text-biru'>My Service</h1>
             <p class="text-body-color text-base py-4 hover:scale-105 duration-200">
-                There are many variations of passages of Lorem Ipsum available but
-                the majority have suffered alteration in some form.
+                There are many variations of service that we offers
             </p>
         </div>
         <div class="-mx-4 flex flex-wrap">
