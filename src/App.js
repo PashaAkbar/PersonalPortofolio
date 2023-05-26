@@ -4,6 +4,8 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import Porto from './components/porto';
 import Profil from './components/profil';
+import Contact from './components/contact';
+import Service from './components/service';
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <Navbar/>
       <Home />
       <Porto/>
+      <Service/>
       <Profil/>
+      <Contact/>
     </div>
   );
 }
