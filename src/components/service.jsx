@@ -2,8 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-
-    <div name ="contact me" className='justify-center items-center w-3/4 mx-auto mt-10 pb-4' id='2'>
+    <div name ="service" className='justify-center items-center w-3/4 mx-auto mt-10 pb-4' id='2'>
         <div className='flex flex-col container mx-auto my-auto justify-around text-center'>
             <h1 className='text-center text-2xl font-bold cursor-pointer my-auto hover:scale-105 duration-200 text-biru'>My Service</h1>
             <p class="text-body-color text-base py-4 hover:scale-105 duration-200">
