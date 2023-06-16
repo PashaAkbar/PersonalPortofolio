@@ -3,6 +3,7 @@ import kawakib from '../assets/kawakib.png';
 import { Link } from 'react-scroll'
 import awan from '../assets/awan.png'
 import keseharianku from '../assets/keseharianku.png'
+import akbar from '../assets/akbar.png'
 
 const Porto = () => {
   return (
@@ -24,16 +25,18 @@ const Porto = () => {
                 </a>
             </div>
             <div class="max-w-sm rounded cursor-pointer overflow-hidden shadow-lg hover:scale-105 duration-200 rounded-[10px]">
-                <img class="w-full" src={awan} alt="Sunset in the mountains"/>
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Awan</div>
-                    <p class="text-gray-700 text-base">A weather forecasting web application is a platform that provides users with up-to-date weather information for various locations. It utilizes weather data obtained from meteorological sources or weather APIs to deliver accurate forecasts and current conditions.</p>
-                </div>
-                <div class="px-6 pt-4 pb-2">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#weather</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#web</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#forecast</span>
-                </div>
+                <a href="https://akbarpicture.netlify.app" smooth duration={400}>
+                    <img class="w-full" src={akbar} alt="Sunset in the mountains"/>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Akbar Picture</div>
+                        <p class="text-gray-700 text-base">A website for promoting and branding my wedding photography business to increase customer reach.</p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#videography</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#wedding</span>
+                    </div>
+                </a>
 
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg hover:scale-105 duration-200 rounded-[10px]">
